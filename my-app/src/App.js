@@ -1,5 +1,6 @@
 import React , {Fragment, Component } from 'react';
 import './App.css';
+import Navbar from "./Components/layout/Navbar";
 
 class App extends Component{
 
@@ -8,7 +9,9 @@ class App extends Component{
     return (
 
       <div className="App">
-        <h1> Hello from the other side</h1>
+
+        <Navbar />
+
       </div>
       
     );
