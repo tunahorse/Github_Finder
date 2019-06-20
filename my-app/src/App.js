@@ -10,7 +10,7 @@ class App extends Component{
 
       <div className="App">
 
-        <Navbar />
+        <Navbar title="Github Finder" icon="fab fa-github" />
 
       </div>
       
